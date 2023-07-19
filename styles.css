@@ -191,20 +191,23 @@
     margin-top: 130px;
     gap: 100px;
 }
-.feature-content h1{
+
+.feature-content h1 {
     font-size: 48px;
     font-weight: 500;
     text-align: right;
     padding-top: 200px;
     margin-bottom: 30px;
 }
-.feature-content p{
+
+.feature-content p {
     color: #534C64;
     font-size: 18px;
     font-weight: 250;
     text-align: right;
 }
-.feature-img-short{
+
+.feature-img-short {
     border-radius: 8px;
     background: #FFF;
     color: #FFF;
@@ -214,6 +217,56 @@
     position: relative;
     bottom: 100px;
     right: 200px;
+
+}
+
+
+
+/* footer part */
+footer .nav-icon1 {
+    justify-content: center;
+    color: #FFF;
+    margin-bottom: 50px;
+}
+
+.footer {
+    background: #0B0223;
+    height: 300px;
+    padding: 200px;
+
+}
+
+.footer-list ul,
+.footer-policy ul {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 50px;
+    list-style: none;
+}
+
+.footer-list a,
+.footer-policy a {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    list-style: none;
+    text-decoration: none;
+}
+
+.footer-icon ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 50px;
+    list-style: none;
+}
+
+.footer-text {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
 
 }
 
@@ -279,23 +332,24 @@
     .videos-game {
         flex-direction: column;
     }
+
     .feature-img img {
         width: 90%;
-        margin-right: 0;   
+        margin-right: 0;
 
     }
 
-    .feature-img{
+    .feature-img {
         text-align: right;
     }
 
-    .feature-img-short{
+    .feature-img-short {
         position: relative;
         right: 20px;
         padding: 0px;
     }
 
-    
+
 
 }
 
@@ -351,29 +405,32 @@
     .banner img {
         width: 100%;
     }
+
     .videos,
     .videos-game {
         flex-direction: column;
     }
-    .videos-game{
+
+    .videos-game {
         text-align: center;
     }
+
     .feature-img img {
         width: 90%;
-        margin-right: 0;   
+        margin-right: 0;
 
     }
 
-    .feature-img{
+    .feature-img {
         text-align: right;
     }
 
-    .feature-img-short{
+    .feature-img-short {
         position: relative;
         right: 20px;
         padding: 0px;
     }
-   
+
 
 
 }
