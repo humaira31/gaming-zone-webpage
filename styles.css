@@ -88,7 +88,7 @@
     background-size: contain;
     padding-left: 200px;
     padding-top: 200px;
-    
+
 
 }
 
@@ -134,7 +134,7 @@
     border-color: #4EC5F7;
 }
 
-.banner-img{
+.banner-img {
     margin-left: 100px;
 }
 
@@ -189,30 +189,37 @@
 
 }
 
-.videos-game img:hover {
-    border: 8px solid purple;
-    border-radius: 10px;
-    color: #F948B2;
+
+
+.game{
+    position: relative;
+}
+.game img{
+    display: block;
+
 }
 
-.videos-game :hover{
-    color: #F948B2;
-}
-
-/*.overlay{
-    position:relative;
-    top: -300px;
+.overlay{
+    position:absolute;
+    top: 0px;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: 280px;
+    height: 330px;
     background: rgb(0,0,0,0.6);
     color: #FF42A5;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    opacity: 0;
 
-}*/
+}
+.overlay p{
+    color: #FF42A5;
+}
+.overlay:hover{
+    opacity: 1;
+}
 
 .funny {
     color: #b8178b;
@@ -329,7 +336,7 @@ footer .nav-icon1 {
     list-style: none;
 }
 
- .footer-text { 
+.footer-text {
     color: rgba(255, 255, 255, 0.60);
     text-align: center;
     font-size: 16px;
@@ -396,9 +403,17 @@ footer .nav-icon1 {
     .banner img {
         width: 100%;
     }
-    .banner-img{
+
+    .banner-img {
         margin-left: 0px;
     }
+
+    .sign {
+
+        margin-right: 10px;
+
+    }
+
 
     .videos,
     .videos-game {
@@ -420,6 +435,15 @@ footer .nav-icon1 {
         right: 20px;
         padding: 0px;
     }
+
+    .feature-content h1,
+    .feature-content p {
+
+        text-align: center;
+
+    }
+
+
 
     .footer {
         height: 600px;
@@ -454,21 +478,23 @@ footer .nav-icon1 {
         column-gap: 0px;
 
     }
+
     .footer {
-        
+
         padding: 100px;
-       
-    
+
+
     }
-    .footer-text { 
-        
+
+    .footer-text {
+
         color: rgba(255, 255, 255, 0.60);
         align-items: center;
         font-size: 10px;
         font-weight: 500;
         padding: 0px;
         margin: 0px;
-    
+
     }
 
 
@@ -532,7 +558,7 @@ footer .nav-icon1 {
         width: 100%;
     }
 
-    .banner-img{
+    .banner-img {
         margin-left: 0px;
     }
 
@@ -543,6 +569,9 @@ footer .nav-icon1 {
 
     .videos-game {
         text-align: center;
+    }
+    .game img{
+        padding-left: 100px;
     }
 
     .feature-img img {
